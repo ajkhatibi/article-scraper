@@ -1,0 +1,19 @@
+{
+  "name": "nytreact",
+  "version": "0.5.0",
+  "description": "mern stack article scrubber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajkhatibi/nytreact.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajkhatibi/nytreact/issues"
+  },
+  "homepage": "https://github.com/ajkhatibi/nytreact#readme"
+}
