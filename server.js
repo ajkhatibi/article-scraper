@@ -5,7 +5,7 @@ var logger = require("morgan");
 var mongoose = require("mongoose");
 
 // Require Click schema
-var Click = require("./models/click");
+var Article = require("./models/Article.js");
 
 // Create a new express app
 var app = express();
@@ -24,7 +24,7 @@ app.use(express.static("./public"));
 // -------------------------------------------------
 
 // MongoDB configuration (Change this URL to your own DB)
-mongoose.connect("mongodb://admin:codingrocks@ds023674.mlab.com:23674/heroku_5ql1blnl");
+mongoose.connect("mongodb://localhost");
 var db = mongoose.connection;
 
 db.on("error", function(err) {
